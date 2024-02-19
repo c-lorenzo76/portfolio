@@ -198,13 +198,33 @@ button {
 
 }
 
-
-
-
 /* FOOTER */
 .footer{
   margin-left:150px;
   margin-top: 10px;
   margin-bottom: 10px;
   
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px){
+  .me h1{
+    font-size: 2rem;
+  }
+
+  .skills-wrapper{
+    flex-direction: column;
+  }
+
+  .skills-wrapper .addInfo{
+    margin-left:0;
+    margin-top: 100px;
+  }
+
+  .projects ul li{
+    width: 100%;
+  }
+
+
 }
