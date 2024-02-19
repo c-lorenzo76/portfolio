@@ -184,12 +184,27 @@ button {
 
 /* CONTACT */
 .contact-wrapper{
-  line-height: 30px;
+  line-height: 25px;
+  margin-left:150px;
 }
+
+.contact-wrapper img{
+  border:2px solid #2d2d2d;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 12px;
+  background:  #3C3633; 
+
+}
+
+
+
 
 /* FOOTER */
 .footer{
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-left:150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   
 }
